@@ -105,4 +105,22 @@ body {
     padding: 10px;
     font-size: 16px; /* Adjust font size as needed */
   }
-  
+
+
+/* Targeting paragraphs with the class "announc" */
+.announc {
+    /* Define styles for the paragraph */
+    background-color: #ffffcc; /* Set background color to a light yellow */
+    padding: 10px; /* Add padding to create space around the text */
+    border: 1px solid #cccccc; /* Add border to the paragraph */
+    border-radius: 5px; /* Add rounded corners to the border */
+    font-size: 16px; /* Set font size */
+    font-weight: bold; /* Set font weight to bold */
+    color: #333333; /* Set text color */
+}
+
+/* Optional: Add margin to create space around the paragraph */
+.announc {
+    margin: 10px 0;
+}
+
