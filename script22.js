@@ -125,7 +125,25 @@ document.addEventListener("DOMContentLoaded", function() {
           category: "programming",
           realPrice: 5999,
           price: 300
-        }
+        },
+        {
+    name: "[MySirG]Web Development with Python",
+    category: "programming",
+    realPrice: 5999,
+    price: 300
+  },
+  {
+    name: "[MySirG]Java Programming For beginners",
+    category: "programming",
+    realPrice: 5999,
+    price: 300
+  },
+  {
+    name: "[MySirG]C++ with DSA",
+    category: "programming",
+    realPrice: 5999,
+    price: 300
+  }
       ]
       
           
