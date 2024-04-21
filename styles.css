@@ -140,3 +140,16 @@ body {
   background-color: #f0f0f0; /* Change background color on hover */
 }
 
+a.freematerials {
+  color: black; /* Set text color to black */
+  background-color: lightgray; /* Add background color */
+  padding: 5px 10px; /* Add padding to create some space around the text */
+  border-radius: 5px; /* Add rounded corners */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Styling for when the anchor tag with class "freematerials" is hovered */
+a.freematerials:hover {
+  color: white; /* Change text color on hover */
+  background-color: gray; /* Change background color on hover */
+}
