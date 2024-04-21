@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Shop</title>
+   
+  <link rel="stylesheet" href="styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+  <header>
+    <h1>NEGOTIATION AVAILABLE</h1>
+    <p class="announc">If Some Course Not Available Click On Buy Button Anywhere</p>
+    <h1>Course Shop</h1>
+    <a class="pagetag" href="index.html">page_1</a>
+    <a class="pagetag" href="index2.html">page_2</a>
+    <a class="pagetag" href="#">page_3</a>
+    <input type="text" id="searchInput" placeholder="Search courses...">
+    <select id="categorySelect">
+      <option value="all">All Categories</option>
+      <option value="programming">Programming</option>
+      <option value="data-science">Data Science</option>
+      <option value="webdevlopment">Webdevlopment</option>
+      <option value="machine-learning"> Machine Learning</option>
+      <option value="other">Other</option>
+    </select>
+    <select id="FromWhere">
+      <option value="all">ALL DATA</option>
+      <option value="ApnaCollege">Apna College</option>
+      <option value="LoveBabbar">Love Babbar</option>
+      <option value="webdevlopment">Webdevlopment</option>
+      <option value="machine-learning"> Machine Learning</option>
+      <option value="other">Other</option>
+    </select>
+  </header>
+  <h1 class="head">Upcomming-Courses</h1>
+  <div class="Upcomming-Courses" id="UpcommingCourses">
+
+  </div>
+<br>
+    <h1 class="head">Available Courses</h1>
+  <div class="course-container" id="courseContainer">
+    <!-- Courses will be dynamically added here -->
+  </div>
+
+  <!-- Sample course card template -->
+  <template id="courseCardTemplate">
+    <div class="course-card">
+      <h2 class="course-title"></h2>
+      <p class="course-real-price"></p>
+      <p class="course-price"></p>
+      <button class="course-buy-btn">Telegram</button>
+      <button class="course-buy-btn2">WhatsApp</button>
+    </div>
+  </template>
+
+  <script src="script22.js"></script>
+  <script src="script2.js"></script>
+</body>
+</html>
