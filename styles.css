@@ -124,3 +124,19 @@ body {
     margin: 10px 0;
 }
 
+
+.pagetag {
+  /* Define styles for the links */
+  color: blue; /* Change the text color to blue */
+  text-decoration: none; /* Remove default underline */
+  padding: 5px 10px; /* Add padding to create space around the text */
+  margin-right: 10px; /* Add margin to create space between links */
+  border: 1px solid blue; /* Add border to the links */
+  border-radius: 5px; /* Add rounded corners to the border */
+}
+
+/* Styling for hover state */
+.pagetag:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
